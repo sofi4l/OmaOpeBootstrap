@@ -1,14 +1,23 @@
-body {
+ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #4691aa;
-}
+  }
 
+  .teaching-area {
+    font-family: Arial, sans-serif;
+    background-color: #a6c6d5;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+  }
 
-.chatbox {
-    background-color: #ffffff;
-    /* overflow: auto; */
+  .chatbox { 
+    background-color: #fff;
+    overflow: auto;
     border-bottom: 1px solid #ddd;
     width: 100%;
     padding: 10px;
@@ -19,7 +28,7 @@ body {
     max-width: 100%;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-   /*  overflow: auto; */
+    overflow: auto;
     max-height: 600px;
   }
   
@@ -28,23 +37,24 @@ body {
     border: none;
     border-right: 1px solid #ddd;
     width: 100%;
-    overflow: auto;
   }
-  
+
   .input-container {
-    margin-bottom: 10px; /* Lisää tämä */
+    display: flex;
+    border-top: 1px solid #ddd;
+    margin-bottom: 10px; 
     width: 100%;
   }
 
   .user-message {
+    text-align: left;
     font-weight: bold;
   }
 
   .message {
     margin-bottom: 10px;
-    text-align: left;
-}
+  }
 
-.bot-message {
-  font-weight: normal;
-}
+  .bot-message {
+    text-align: left;
+  }
